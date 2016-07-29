@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelInformacionAgroquimico" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="oKCancelCleanPanel" pref="550" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanelInformacionAgroquimico" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="oKCancelCleanPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelInformacionAgroquimico">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Agroqu&#xed;mico">
+              <Property name="titleX" resourceKey="jPanelInformacionAgroquimico.border.title"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanelInformacionAgroquimico" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jButtonDetalle" alignment="1" min="-2" pref="201" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelUso" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelConcentracion" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelPpioActivo" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNombreComercial" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textFieldPpioActivo" alignment="0" pref="438" max="32767" attributes="0"/>
+                              <Component id="textFieldNombreComercial" alignment="0" pref="438" max="32767" attributes="0"/>
+                              <Component id="textFieldConcentracion" alignment="0" pref="438" max="32767" attributes="0"/>
+                              <Component id="textFieldUso" alignment="0" pref="438" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="textFieldNombreComercial" max="32767" attributes="1"/>
+                      <Component id="jLabelNombreComercial" alignment="1" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabelPpioActivo" min="-2" max="-2" attributes="0"/>
+                      <Component id="textFieldPpioActivo" min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="textFieldConcentracion" pref="14" max="32767" attributes="1"/>
+                      <Component id="jLabelConcentracion" alignment="1" min="-2" max="-2" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="textFieldUso" pref="14" max="32767" attributes="1"/>
+                      <Component id="jLabelUso" alignment="1" min="-2" max="-2" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButtonDetalle" min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButtonDetalle">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="ar.com.init.agros.view.agroquimicos.DialogInformacionAgroquimico" id="verDetalle" methodName="verDetalle"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="jButtonDetalle.text"/>
+            <Property name="name" type="java.lang.String" value="jButtonDetalle" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelNombreComercial">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelNombreComercial.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelNombreComercial" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelPpioActivo">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelPpioActivo.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelPpioActivo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelConcentracion">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelConcentracion.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelConcentracion" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelUso">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelUso.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelUso" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="textFieldNombreComercial">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="labelField.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="textFieldNombreComercial.text"/>
+            <Property name="name" type="java.lang.String" value="textFieldNombreComercial" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="textFieldPpioActivo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="labelField.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="textFieldPpioActivo.text"/>
+            <Property name="name" type="java.lang.String" value="textFieldPpioActivo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="textFieldConcentracion">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="labelField.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="textFieldConcentracion.text"/>
+            <Property name="name" type="java.lang.String" value="textFieldConcentracion" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="textFieldUso">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="labelField.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="textFieldUso.text"/>
+            <Property name="name" type="java.lang.String" value="textFieldUso" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="ar.com.init.agros.util.gui.components.buttons.OKCancelCleanPanel" name="oKCancelCleanPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="oKCancelCleanPanel" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

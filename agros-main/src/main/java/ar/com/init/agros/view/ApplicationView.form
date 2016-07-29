@@ -1,0 +1,1054 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="mainPanel.background"/>
+        <Property name="name" type="java.lang.String" value="mainPanel" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="mainPanelComponentShown"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jPanel1.background"/>
+            <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Last"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblImage2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="190" max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="22" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblImage2" alignment="1" min="-2" pref="250" max="-2" attributes="1"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblImage2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="lblImage2.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblImage2.text"/>
+                <Property name="name" type="java.lang.String" value="lblImage2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jLabel1.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jPanel2.background"/>
+            <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="fileMenu.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="fileMenu.toolTipText"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="fileMenu" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConfiguracion">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="configurar" methodName="configurar"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConfiguracion.text"/>
+                <Property name="name" type="java.lang.String" value="itemConfiguracion" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator2" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRealizarCopiaBD">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="realizarCopiaBD" methodName="realizarCopiaBD"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRealizarCopiaBD.text"/>
+                <Property name="name" type="java.lang.String" value="itemRealizarCopiaBD" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRestaurarBD">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="restaurarBD" methodName="restaurarBD"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRestaurarBD.text"/>
+                <Property name="name" type="java.lang.String" value="itemRestaurarBD" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemImportarBD">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="importarBD" methodName="importarBD"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemImportarBD.text"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="exitMenuItem.icon"/>
+                <Property name="name" type="java.lang.String" value="exitMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuAdministracion">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuAdministracion.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuAdministracion.text"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuAdministracion" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="menuProveedores">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="menuProveedores.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="menuProveedores.text"/>
+                <Property name="name" type="java.lang.String" value="menuProveedores" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarProveedor">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="registrarProveedor" methodName="registrarProveedor"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemRegistrarProveedor.text"/>
+                    <Property name="name" type="java.lang.String" value="itemRegistrarProveedor" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="itemConsultarProveedores">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="consultarProveedores" methodName="consultarProveedores"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemConsultarProveedores.text"/>
+                    <Property name="name" type="java.lang.String" value="itemConsultarProveedores" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="menuDepositos">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="menuDepositos.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="menuDepositos.text"/>
+                <Property name="name" type="java.lang.String" value="menuDepositos" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarDeposito">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="registrarDeposito" methodName="registrarDeposito"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemRegistrarDeposito.text"/>
+                    <Property name="name" type="java.lang.String" value="itemRegistrarDeposito" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="itemConsultarDepositos">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="consultarDepositos" methodName="consultarDepositos"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemConsultarDepositos.text"/>
+                    <Property name="name" type="java.lang.String" value="itemConsultarDepositos" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="menuTiposIngreso">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="menuTiposIngreso.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="menuTiposIngreso.text"/>
+                <Property name="name" type="java.lang.String" value="menuTiposIngreso" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarTipoIngreso">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="registrarTipoIngreso" methodName="registrarTipoIngreso"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemRegistrarTipoIngreso.text"/>
+                    <Property name="name" type="java.lang.String" value="itemRegistrarTipoIngreso" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="itemConsultarTiposIngreso">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="consultarTiposIngreso" methodName="consultarTiposIngreso"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemConsultarTiposIngreso.text"/>
+                    <Property name="name" type="java.lang.String" value="itemConsultarTiposIngreso" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="menuTiposCosto">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="menuTiposCosto.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="menuTiposCosto.text"/>
+                <Property name="name" type="java.lang.String" value="menuTiposCosto" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarTipoCosto">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="registrarTipoCosto" methodName="registrarTipoCosto"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemRegistrarTipoCosto.text"/>
+                    <Property name="name" type="java.lang.String" value="itemRegistrarTipoCosto" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="itemConsultarTiposCosto">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="consultarTiposCosto" methodName="consultarTiposCosto"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemConsultarTiposCosto.text"/>
+                    <Property name="name" type="java.lang.String" value="itemConsultarTiposCosto" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="menuMomentoAplicacion">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="menuMomentoAplicacion.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="menuMomentoAplicacion.text"/>
+                <Property name="name" type="java.lang.String" value="menuMomentoAplicacion" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarMomentoAplicacion">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="registrarMomentoAplicacion" methodName="registrarMomentoAplicacion"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemRegistrarMomentoAplicacion.text"/>
+                    <Property name="name" type="java.lang.String" value="itemRegistrarMomentoAplicacion" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="itemConsultarMomentoAplicacion">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.ApplicationView" id="consultarMomentoAplicacion" methodName="consultarMomentoAplicacion"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="itemConsultarMomentoAplicacion.text"/>
+                    <Property name="name" type="java.lang.String" value="itemConsultarMomentoAplicacion" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuCampo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuCampo.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuCampo.text"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuCampo" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarCampo">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarCampo" methodName="registrarCampo"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRegistrarCampo.text"/>
+                <Property name="name" type="java.lang.String" value="itemRegistrarCampo" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarCampos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarCampos" methodName="consultarCampos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarCampos.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarCampos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuCampania">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuCampania.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuCampania.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="menuCampania.toolTipText"/>
+            <Property name="font" type="java.awt.Font" resourceKey="menuCampania.font"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuCampania" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarCampania">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarCampania" methodName="registrarCampania"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRegistrarCampania.text"/>
+                <Property name="name" type="java.lang.String" value="itemRegistrarCampania" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarCampanias">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarCampanias" methodName="consultarCampanias"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarCampanias.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarCampanias" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarCierreDeCampania">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarCierreDeCampania" methodName="registrarCierreDeCampania"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRegistrarCierreDeCampania.text"/>
+                <Property name="name" type="java.lang.String" value="itemRegistrarCierreDeCampania" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarCierreCampania" methodName="consultarCierreCampania"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItem2.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItem2" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuPlanificacion">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuPlanificacion.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuPlanificacion.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="menuPlanificacion.toolTipText"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuPlanificacion" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemMenuRegistrarPlanificacionAgroquimico">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarPlanificacionAgroquimicos" methodName="registrarPlanificacionAgroquimicos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemMenuRegistrarPlanificacionAgroquimico.text"/>
+                <Property name="name" type="java.lang.String" value="itemMenuRegistrarPlanificacionAgroquimico" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemMenuConsultarPlanificaciones">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarPlanificaciones" methodName="consultarPlanificaciones"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemMenuConsultarPlanificaciones.text"/>
+                <Property name="name" type="java.lang.String" value="itemMenuConsultarPlanificaciones" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuSiembra">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuSiembra.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuSiembra.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="menuSiembra.toolTipText"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuSiembra" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemMenuRegistrarSiembra">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarSiembra" methodName="registrarSiembra"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemMenuRegistrarSiembra.text"/>
+                <Property name="name" type="java.lang.String" value="itemMenuRegistrarSiembra" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemMenuConsultarSiembras">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarSiembras" methodName="consultarSiembras"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemMenuConsultarSiembras.text"/>
+                <Property name="name" type="java.lang.String" value="itemMenuConsultarSiembras" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarCultivos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarCultivo" methodName="registrarCultivo"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRegistrarCultivos.text"/>
+                <Property name="name" type="java.lang.String" value="itemRegistrarCultivos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarCultivos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarCultivos" methodName="consultarCultivos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarCultivos.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarCultivos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuPulverizaciones">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuPulverizaciones.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuPulverizaciones.text"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuPulverizaciones" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarTrabajo">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarTrabajo" methodName="registrarTrabajo"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRegistrarTrabajo.text"/>
+                <Property name="name" type="java.lang.String" value="itemRegistrarTrabajo" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarTrabajo">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarTrabajos" methodName="consultarTrabajos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarTrabajo.text"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuAgroquimicos">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="ar.com.init.agros.view.ApplicationView" id="showTotalizadorAgroquimicos" methodName="showTotalizadorAgroquimicos"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuAgroquimicos.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuAgroquimicos.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="menuAgroquimicos.toolTipText"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuAgroquimicos" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemMenuRegistrarAgroquimico">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarAgroquimico" methodName="registrarAgroquimico"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemMenuRegistrarAgroquimico.text"/>
+                <Property name="name" type="java.lang.String" value="itemMenuRegistrarAgroquimico" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemMenuConsultarAgroquimicos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarAgroquimicos" methodName="consultarAgroquimicos"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="itemMenuConsultarAgroquimicos.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="itemMenuConsultarAgroquimicos.text"/>
+                <Property name="name" type="java.lang.String" value="itemMenuConsultarAgroquimicos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemSeleccionarAgroquimicosUso">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="seleccionarAgroquimicoUso" methodName="seleccionarAgroquimicoUso"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemSeleccionarAgroquimicosUso.text"/>
+                <Property name="name" type="java.lang.String" value="itemSeleccionarAgroquimicosUso" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarAgroquimicosUso">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarAgroquimicosUso" methodName="consultarAgroquimicosUso"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarAgroquimicosUso.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarAgroquimicosUso" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuStock">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuStock.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuStock.text"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuStock" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemIngresoStock">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarIngresoAgroquimicoAlStock" methodName="registrarIngresoAgroquimicoAlStock"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemIngresoStock.text"/>
+                <Property name="name" type="java.lang.String" value="itemIngresoStock" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemAjusteInventario">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="ajustarInventario" methodName="ajustarInventario"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemAjusteInventario.text"/>
+                <Property name="name" type="java.lang.String" value="itemAjusteInventario" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarMovimientoDeposito">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarMovimientoDeposito" methodName="registrarMovimientoDeposito"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRegistrarMovimientoDeposito.text"/>
+                <Property name="name" type="java.lang.String" value="itemRegistrarMovimientoDeposito" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemCancelarIngresoStock">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="cancelarIngresoStock" methodName="cancelarIngresoStock"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemCancelarIngresoStock.text"/>
+                <Property name="name" type="java.lang.String" value="itemCancelarIngresoStock" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemTotalizadorAgroquim">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="showTotalizadorAgroquimicos" methodName="showTotalizadorAgroquimicos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemTotalizadorAgroquim.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemTotalizadorAgroquim" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarMovimientosDepositos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarMovimientosDepositos" methodName="consultarMovimientosDepositos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarMovimientosDepositos.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarMovimientosDepositos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarIngresosAgroquimicos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarIngresosDeStock" methodName="consultarIngresosDeStock"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="itemConsultarIngresosAgroquimicos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator4">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator4" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemIngresoSemCer">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarIngresoSemillaCereal" methodName="registrarIngresoSemillaCereal"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemIngresoSemCer.text"/>
+                <Property name="name" type="java.lang.String" value="itemIngresoSemCer" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarIngresoSemCer">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarIngresoSemillaCereal" methodName="consultarIngresoSemillaCereal"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarIngresoSemCer.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarIngresoSemCer" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemEgresoSemCer">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarEgresoSemillaCereal" methodName="registrarEgresoSemillaCereal"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemEgresoSemCer.text"/>
+                <Property name="name" type="java.lang.String" value="itemEgresoSemCer" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarEgresoSemCer">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarEgresoSemCer" methodName="consultarEgresoSemCer"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarEgresoSemCer.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarEgresoSemCer" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuLluvia">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuLluvia.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuLluvia.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="menuLluvia.toolTipText"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuLluvia" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarLluvia">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarLluvia" methodName="registrarLluvia"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemRegistrarLluvia.text"/>
+                <Property name="name" type="java.lang.String" value="itemRegistrarLluvia" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarLluvias">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarLluvias" methodName="consultarLluvias"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarLluvias.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarLluvias" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="showTotalizadorLluvias" methodName="showTotalizadorLluvias"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItem1.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItem1" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuReportes">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuReportes.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuReportes.text"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="menuReportes" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteStockAlmacenamientos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteStockAlmacenamientos" methodName="generarReporteStockAlmacenamientos"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="itemReporteStockAlmacenamientos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteLluvias">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteLluvias" methodName="generarReporteLluvias"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="itemReporteLluvias" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteComparacionCostoAgroquimico">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteComparacionCostoAgroquimicos" methodName="generarReporteComparacionCostoAgroquimicos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteComparacionCostoAgroquimico.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteComparacionCostoAgroquimico" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteHistoricoTrabajo">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteHistoricoTrabajo" methodName="generarReporteHistoricoTrabajo"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteHistoricoTrabajo.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteHistoricoTrabajo" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReportePlanificacion">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReportePlanificacion" methodName="generarReportePlanificacion"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReportePlanificacion.text"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteCostoAgroquimico">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteCostoAgroquimicos" methodName="generarReporteCostoAgroquimicos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteCostoAgroquimico.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteCostoAgroquimico" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteCostosCampania">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteCostosCampania" methodName="generarReporteCostosCampania"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteCostosCampania.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteCostosCampania" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteCostosEstablecimiento">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteCostosPorEstablecimiento" methodName="generarReporteCostosPorEstablecimiento"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteCostosEstablecimiento.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteCostosEstablecimiento" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteSiembra">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteSiembras" methodName="generarReporteSiembras"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteSiembra.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteSiembra" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteComparativoInsumos">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteComparativoInsumos" methodName="generarReporteComparativoInsumos"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteComparativoInsumos.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteComparativoInsumos" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteAgroquimicosPlanificados">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteAgroquimicosPlanificados" methodName="generarReporteAgroquimicosPlanificados"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteAgroquimicosPlanificados.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteAgroquimicosPlanificados" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteMargenBrutoCampania">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="generarReporteMargenBrutoCampania" methodName="generarReporteMargenBrutoCampania"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteMargenBrutoCampania.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteMargenBrutoCampania" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemReporteEmpresasDeServicio">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="itemReporteEmpresasDeServicio.text"/>
+                <Property name="name" type="java.lang.String" value="itemReporteEmpresasDeServicio" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemReporteEmpresasDeServicioActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="helpMenu.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="helpMenu.toolTipText"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="helpMenu" noResource="true"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAutogestion">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="abrirAutogestion" methodName="abrirAutogestion"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemAutogestion.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemAutogestion" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator5">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator5" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="aboutMenuItem.icon"/>
+                <Property name="name" type="java.lang.String" value="aboutMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="sugerenciasMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="enviarSugerencia" methodName="enviarSugerencia"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="sugerenciasMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="sugerenciasMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="statusPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="statusPanel" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JSeparator" name="statusPanelSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusPanelSeparator" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusMessageLabel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusMessageLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusAnimationLabel">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="name" type="java.lang.String" value="statusAnimationLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="progressBar">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="progressBar" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenu" name="jMenu1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jMenu1.text"/>
+        <Property name="name" type="java.lang.String" value="jMenu1" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <MenuItem class="javax.swing.JMenuItem" name="itemFormaFumigacion">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="itemFormaFumigacion.text"/>
+            <Property name="name" type="java.lang.String" value="itemFormaFumigacion" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemFormaFumigacionActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="itemTipoTrabajo">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="itemTipoTrabajo.text"/>
+            <Property name="name" type="java.lang.String" value="itemTipoTrabajo" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemTipoTrabajoActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="itemTipoCampania">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="itemTipoCampania.text"/>
+            <Property name="name" type="java.lang.String" value="itemTipoCampania" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemTipoCampaniaActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <Component class="javax.swing.JSeparator" name="jSeparator3">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jSeparator3" noResource="true"/>
+          </Properties>
+        </Component>
+        <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarPlaga">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="ar.com.init.agros.view.ApplicationView" id="registrarPlaga" methodName="registrarPlaga"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="itemRegistrarPlaga.text"/>
+            <Property name="name" type="java.lang.String" value="itemRegistrarPlaga" noResource="true"/>
+          </Properties>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="itemConsultarPlagas">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="ar.com.init.agros.view.ApplicationView" id="consultarPlagas" methodName="consultarPlagas"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="itemConsultarPlagas.text"/>
+            <Property name="name" type="java.lang.String" value="itemConsultarPlagas" noResource="true"/>
+          </Properties>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarTipoPlaga">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="ar.com.init.agros.view.ApplicationView" id="registrarTipoPlaga" methodName="registrarTipoPlaga"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="itemRegistrarTipoPlaga.text"/>
+            <Property name="name" type="java.lang.String" value="itemRegistrarTipoPlaga" noResource="true"/>
+          </Properties>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="itemConsultarTiposPlaga">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="ar.com.init.agros.view.ApplicationView" id="consultarTipoPlaga" methodName="consultarTipoPlaga"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="itemConsultarTiposPlaga.text"/>
+            <Property name="name" type="java.lang.String" value="itemConsultarTiposPlaga" noResource="true"/>
+          </Properties>
+        </MenuItem>
+        <Menu class="javax.swing.JMenu" name="menuTipoSemilla">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="menuTipoSemilla.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="menuTipoSemilla.text"/>
+            <Property name="name" type="java.lang.String" value="menuTipoSemilla" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="itemRegistrarTipoSemilla">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="registrarTipoSemilla" methodName="registrarTipoSemilla"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="itemRegistrarTipoSemilla" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="itemConsultarTipoSemilla">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.ApplicationView" id="consultarTipoSemilla" methodName="consultarTipoSemilla"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="itemConsultarTipoSemilla.text"/>
+                <Property name="name" type="java.lang.String" value="itemConsultarTipoSemilla" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+    <Property name="statusBar" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="statusPanel"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,61,0,0,3,55"/>
+  </AuxValues>
+</Form>

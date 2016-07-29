@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="ar.com.init.agros.util.gui.ListableComboBoxRenderer" name="listableComboBoxRenderer">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="listableComboBoxRenderer.text"/>
+        <Property name="name" type="java.lang.String" value="listableComboBoxRenderer" noResource="true"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="frameNotifier" alignment="0" pref="753" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panelObservacion" pref="733" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="oKCancelCleanPanel" pref="733" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jXPanelIngreso" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelValores" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelNuevo" max="32767" attributes="2"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="frameNotifier" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jXPanelIngreso" min="-2" pref="46" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jPanelNuevo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jPanelValores" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="panelObservacion" min="-2" pref="113" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="oKCancelCleanPanel" min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelNuevo">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Nuevo Detalle">
+              <Property name="titleX" resourceKey="jPanelNuevo.border.title"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanelNuevo" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="addRemovePanel" min="-2" max="-2" attributes="1"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel1" alignment="0" max="32767" attributes="1"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="200" max="32767" attributes="0"/>
+                  <Component id="addRemovePanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="ar.com.init.agros.util.gui.components.buttons.AddRemovePanel" name="addRemovePanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="addRemovePanel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelAgroquimicos" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelDeposito" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelRemito" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelProveedor" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelStockMinimo" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelCantidad" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelCosto" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabelFechaDetalle" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBoxProveedores" pref="220" max="32767" attributes="1"/>
+                          <Component id="jTextFieldRemito" alignment="0" pref="220" max="32767" attributes="2"/>
+                          <Component id="panelValorUnidadCantidad" alignment="0" pref="220" max="32767" attributes="1"/>
+                          <Component id="jComboBoxAgroquimicos" alignment="0" pref="220" max="32767" attributes="1"/>
+                          <Component id="jComboBoxDeposito" alignment="0" pref="220" max="32767" attributes="0"/>
+                          <Component id="panelValorUnidadStockMinimo" alignment="0" pref="220" max="32767" attributes="0"/>
+                          <Component id="panelValorMonedaCosto" alignment="0" pref="220" max="32767" attributes="0"/>
+                          <Component id="jTextFieldObservaciones" alignment="0" pref="220" max="32767" attributes="0"/>
+                          <Component id="singleDateChooserDetalle" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jLabelFechaDetalle" max="32767" attributes="1"/>
+                          <Component id="singleDateChooserDetalle" alignment="1" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelProveedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxProveedores" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelRemito" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldRemito" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelDeposito" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxDeposito" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelAgroquimicos" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="jComboBoxAgroquimicos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabelStockMinimo" max="32767" attributes="1"/>
+                          <Component id="panelValorUnidadStockMinimo" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jLabelCantidad" max="32767" attributes="1"/>
+                          <Component id="panelValorUnidadCantidad" alignment="1" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabelCosto" max="32767" attributes="1"/>
+                          <Component id="panelValorMonedaCosto" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldObservaciones" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabelAgroquimicos">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelAgroquimicos.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelAgroquimicos" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxAgroquimicos">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jComboBoxAgroquimicos" noResource="true"/>
+                <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="listableComboBoxRenderer"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxAgroquimicosActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelCantidad">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelCantidad.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelCantidad" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="ar.com.init.agros.view.components.valores.PanelValorUnidad" name="panelValorUnidadCantidad">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="panelValorUnidadCantidad" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelCosto">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelCosto.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelCosto" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelDeposito">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelDeposito.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelDeposito" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxDeposito">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jComboBoxDeposito" noResource="true"/>
+                <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="listableComboBoxRenderer"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxDepositoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldRemito">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jTextFieldRemito.text"/>
+                <Property name="name" type="java.lang.String" value="jTextFieldRemito" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelRemito">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelRemito.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelRemito" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxProveedores">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jComboBoxProveedores" noResource="true"/>
+                <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="listableComboBoxRenderer"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelProveedor">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelProveedor.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelProveedor" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="ar.com.init.agros.view.components.valores.PanelValorUnidad" name="panelValorUnidadStockMinimo">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="panelValorUnidadStockMinimo" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelStockMinimo">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelStockMinimo.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelStockMinimo" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="ar.com.init.agros.view.components.valores.PanelValorMoneda" name="panelValorMonedaCosto">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="panelValorMonedaCosto" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldObservaciones">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jTextFieldObservaciones.text"/>
+                <Property name="name" type="java.lang.String" value="jTextFieldObservaciones" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelFechaDetalle">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelFechaDetalle.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelFechaDetalle" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="ar.com.init.agros.util.gui.components.date.SingleDateChooser" name="singleDateChooserDetalle">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="singleDateChooserDetalle" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="singleDateChooserDetallePropertyChange"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelValores">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Detalles">
+              <Property name="titleX" resourceKey="jPanelValores.border.title"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanelValores" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="0" pref="717" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="1" pref="134" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXTable" name="jXTableValores">
+              <Properties>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jXTableValores" noResource="true"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="ar.com.init.agros.util.gui.components.buttons.OKCancelCleanPanel" name="oKCancelCleanPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="oKCancelCleanPanel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="ar.com.init.agros.util.gui.validation.components.FrameNotifier" name="frameNotifier">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="frameNotifier" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="org.jdesktop.swingx.JXPanel" name="jXPanelIngreso">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Ingreso al Stock">
+              <Property name="titleX" resourceKey="jXPanelIngreso.border.title"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jXPanelIngreso" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jLabelFecha" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="singleDateChooser" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="562" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="singleDateChooser" min="-2" max="-2" attributes="1"/>
+                      <Component id="jLabelFecha" pref="20" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelFecha">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelFecha.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelFecha" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="ar.com.init.agros.util.gui.components.date.SingleDateChooser" name="singleDateChooser">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="singleDateChooser" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="singleDateChooserPropertyChange"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="ar.com.init.agros.view.components.panels.PanelObservacion" name="panelObservacion">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="panelObservacion" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

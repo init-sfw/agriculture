@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="frameNotifier" alignment="0" pref="761" max="32767" attributes="0"/>
+          <Component id="oKCancelCleanPanel" alignment="0" pref="761" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Component id="jTabbedPane" pref="755" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="frameNotifier" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane" min="-2" pref="572" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="oKCancelCleanPanel" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="ar.com.init.agros.util.gui.components.buttons.OKCancelCleanPanel" name="oKCancelCleanPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="oKCancelCleanPanel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="ar.com.init.agros.util.gui.validation.components.FrameNotifier" name="frameNotifier">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="frameNotifier" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jTabbedPane" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jTabbedPaneStateChanged"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanelAlertas">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Alertas">
+                  <Property name="titleX" resourceKey="jPanelAlertas.border.title"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="jPanelAlertas" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Alertas de Stock">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="jPanelAlertas.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane2" alignment="1" pref="724" max="32767" attributes="0"/>
+                          <Component id="jPanelDirecciones" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="615" max="32767" attributes="0"/>
+                              <Component id="jCheckBoxSeleccionarTodasAlertas" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jCheckBoxSeleccionarTodasAlertas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="262" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelDirecciones" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="org.jdesktop.swingx.JXTable" name="jXTableAlertas">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jXTableAlertas" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelDirecciones">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Direcciones">
+                      <Property name="titleX" resourceKey="jPanelDirecciones.border.title"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jPanelDirecciones" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldDireccion" alignment="0" min="-2" pref="209" max="-2" attributes="1"/>
+                              <Component id="jLabelDireccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="addRemovePanel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonSendTestMessage" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPaneDirecciones" min="-2" pref="246" max="-2" attributes="0"/>
+                          <EmptySpace pref="137" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPaneDirecciones" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="1">
+                                  <Component id="jLabelDireccion" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextFieldDireccion" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="addRemovePanel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jButtonSendTestMessage" min="-2" pref="37" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jButtonSendTestMessage">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="ar.com.init.agros.view.configuracion.DialogConfiguracion" id="enviarCorreoPrueba" methodName="enviarCorreoPrueba"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="jButtonSendTestMessage.text"/>
+                    <Property name="name" type="java.lang.String" value="jButtonSendTestMessage" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="ar.com.init.agros.util.gui.components.buttons.AddRemovePanel" name="addRemovePanel">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="addRemovePanel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPaneDirecciones">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Direcciones Ingresadas">
+                          <Property name="titleX" resourceKey="jScrollPaneDirecciones.border.title"/>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="jScrollPaneDirecciones" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="org.jdesktop.swingx.JXList" name="jXListDirecciones">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jXListDirecciones" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabelDireccion">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabelDireccion.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabelDireccion" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldDireccion">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jTextFieldDireccion.text"/>
+                    <Property name="name" type="java.lang.String" value="jTextFieldDireccion" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxSeleccionarTodasAlertas">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxSeleccionarTodasAlertas.text"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxSeleccionarTodasAlertas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxSeleccionarTodasAlertasActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelCorreo">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jPanelCorreo" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Opciones de Correo">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="jPanelCorreo.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabelPuerto" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelRemitente" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelServidorSMTP" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelUsuario" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelPassword" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCheckBoxUsarConexionSegura" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBoxRequiereAutenticacion" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldServidorSMTP" alignment="0" pref="653" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldUsuarioSMTP" alignment="0" pref="653" max="32767" attributes="0"/>
+                                  <Component id="jPasswordFieldSMTP" alignment="0" pref="653" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jCheckBoxValoresDefecto" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="318" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jTextFieldRemitente" pref="653" max="32767" attributes="0"/>
+                                  <Component id="jComboBoxPuerto" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jButtonVerificarSMTP" alignment="1" min="-2" pref="135" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCheckBoxValoresDefecto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelRemitente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldRemitente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelServidorSMTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldServidorSMTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelPuerto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxPuerto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldUsuarioSMTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPasswordFieldSMTP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="jCheckBoxRequiereAutenticacion" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCheckBoxUsarConexionSegura" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="jButtonVerificarSMTP" min="-2" pref="35" max="-2" attributes="1"/>
+                      <EmptySpace pref="290" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabelRemitente">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelRemitente.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelRemitente" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelServidorSMTP">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelServidorSMTP.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelServidorSMTP" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelUsuario">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelUsuario.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelUsuario" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPassword">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelPassword.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelPassword" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldRemitente">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jTextFieldRemitente.text"/>
+                <Property name="name" type="java.lang.String" value="jTextFieldRemitente" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldServidorSMTP">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jTextFieldServidorSMTP.text"/>
+                <Property name="name" type="java.lang.String" value="jTextFieldServidorSMTP" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldUsuarioSMTP">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jTextFieldUsuarioSMTP.text"/>
+                <Property name="name" type="java.lang.String" value="jTextFieldUsuarioSMTP" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxValoresDefecto">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxValoresDefecto.text"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxValoresDefecto" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxValoresDefectoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="jPasswordFieldSMTP">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jPasswordFieldSMTP.text"/>
+                <Property name="name" type="java.lang.String" value="jPasswordFieldSMTP" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonVerificarSMTP">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.configuracion.DialogConfiguracion" id="verificarConexion" methodName="verificarConexion"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jButtonVerificarSMTP.text"/>
+                <Property name="name" type="java.lang.String" value="jButtonVerificarSMTP" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxRequiereAutenticacion">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxRequiereAutenticacion.text"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxRequiereAutenticacion" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxUsarConexionSegura">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxUsarConexionSegura.text"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxUsarConexionSegura" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelPuerto">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelPuerto.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelPuerto" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxPuerto">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jComboBoxPuerto" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelGuia">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jPanelGuia" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Gu&#xed;a de Productos Fitosanitarios">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="jPanelGuia.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelCarpetaGuia" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCheckBoxDefaultGuia" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jTextFieldCarpetaGuia" pref="498" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButtonExaminarGuia" min="-2" pref="103" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="1" pref="750" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                      <Component id="jXImagePanelLogoCasafe" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="540" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="116" max="32767" attributes="0"/>
+                      <Component id="jLabelLogoCasafe" min="-2" pref="624" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="591" max="32767" attributes="0"/>
+                      <Component id="jCheckBoxNoMostrarGuia" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="jCheckBoxDefaultGuia" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelCarpetaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldCarpetaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonExaminarGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jXImagePanelLogoCasafe" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelLogoCasafe" min="-2" pref="277" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="jCheckBoxNoMostrarGuia" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="jTextPaneGuiaFito">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" resourceKey="jTextPaneGuiaFito.background"/>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" resourceKey="jTextPaneGuiaFito.font"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jTextPaneGuiaFito.text"/>
+                    <Property name="name" type="java.lang.String" value="jTextPaneGuiaFito" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabelCarpetaGuia">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelCarpetaGuia.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelCarpetaGuia" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldCarpetaGuia">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" resourceKey="jTextFieldCarpetaGuia.text"/>
+                <Property name="name" type="java.lang.String" value="jTextFieldCarpetaGuia" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonExaminarGuia">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="ar.com.init.agros.view.configuracion.DialogConfiguracion" id="examinarGuia" methodName="examinarGuia"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jButtonExaminarGuia.text"/>
+                <Property name="name" type="java.lang.String" value="jButtonExaminarGuia" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxDefaultGuia">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxDefaultGuia.text"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxDefaultGuia" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxDefaultGuiaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelLogoCasafe">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jLabelLogoCasafe.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabelLogoCasafe.text"/>
+                <Property name="name" type="java.lang.String" value="jLabelLogoCasafe" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="org.jdesktop.swingx.JXImagePanel" name="jXImagePanelLogoCasafe">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jXImagePanelLogoCasafe" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxNoMostrarGuia">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxNoMostrarGuia.text"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxNoMostrarGuia" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxNoMostrarGuiaActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
